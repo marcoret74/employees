@@ -1,13 +1,13 @@
 package cl.marco.employees.backend.exceptions;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class ErrorDetail {
     private Date timestamp;
     private String message;
     private String details;
 
-    public ErrorDetail(java.util.Date date, String message, String details) {
+    public ErrorDetail(Date date, String message, String details) {
         super();
 
         this.timestamp = date;
